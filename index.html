@@ -1,8 +1,69 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Octobug | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: #0a9adc;
+      color: #0d0109;
+    }
+    .container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      max-width: 500px;
+    }
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #cc0e6d;
+      font-weight: bold;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+  <div class="container">
+    <img src="images/octopus.png" alt="Octobug Logo" class="profile-pic" />
+    <h1>Hi, I'm Octobug!</h1>
+    <p>A security engineer and full stack developer specializing in web security and web development.</p>
+    <div class="links">
+      <a href="https://github.com/octobug" target="_blank">GitHub</a>
+      <a href="mailto:you@example.com">Email</a>
+      <a href="#">Resume</a>
+    </div>
+  </div>
 </body>
 </html>
