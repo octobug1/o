@@ -38,6 +38,14 @@
       font-size: 2.5rem;
       margin-bottom: 10px;
     }
+    .highlight-name {
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+    .highlight-name:hover {
+      color: #9a0650; 
+      transform: scale(1.08);
+    }
     p {
       font-size: 1.1rem;
       margin-bottom: 20px;
@@ -46,7 +54,7 @@
     .links a {
       margin: 0 10px;
       text-decoration: none;
-      color: #cc0e6d;
+      color: #9a0650;
       font-weight: bold;
     }
     .links a:hover {
@@ -57,12 +65,13 @@
 <body>
   <div class="container">
     <img src="images/octopus.png" alt="Octobug Logo" class="profile-pic" />
-    <h1>Hi, I'm Octobug!</h1>
+    <h1>Hi, I'm <span class="highlight-name">Octobug!</span></h1>
     <p>A security engineer and full stack developer specializing in web security and web development.</p>
     <div class="links">
       <a href="https://github.com/octobug1" target="_blank">GitHub</a>
       <a href="mailto:octobug1@proton.me">Email</a>
       <a href="https://t.me/octobug1" target="_blank">Telegram</a>
+      <a href="https://github.com/DarkSyst" target="_blank">Company</a>
     </div>
   </div>
 </body>
